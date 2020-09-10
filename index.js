@@ -1,10 +1,10 @@
 // ------------------------global varibals--------------------
-let globalID = 0;
+let globalID = 1;
 // -------------------------functions---------------------------
-const getId = () => {
-
-	return (globalID += 1);
+function getId() {
+    return (globalID += 1);
 }
+
 
 const makeTodo = (title, text, complete) => ({
     id: getId(),
