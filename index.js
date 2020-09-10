@@ -1,8 +1,6 @@
-// ------------------------global varibals--------------------
 let globalID = 0;
-// -------------------------functions---------------------------
-const getId = () => {
 
+const getId = () => {
 	return (globalID += 1);
 }
 
