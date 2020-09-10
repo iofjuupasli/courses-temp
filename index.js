@@ -1,6 +1,4 @@
-// ------------------------global varibals--------------------
 let globalID = 1;
-// -------------------------functions---------------------------
 function getId() {
     return (globalID += 1);
 }
