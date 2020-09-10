@@ -1,0 +1,11 @@
+<button id="toggle">Включить</button>
+<img id="bulb" src="./bulb.png" hidden />
+
+  <script>
+    const toggleElem = document.getElementById('toggle');
+    const bulbElem = document.getElementById('bulb');
+    toggleElem.addEventListener('click', () => {
+      bulbElem.hidden = !bulbElem.hidden;
+      toggleElem.innerText = bulbElem.hidden ? "Включить" : "Выключить";
+    });
+  </script>
